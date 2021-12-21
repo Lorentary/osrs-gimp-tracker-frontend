@@ -255,7 +255,7 @@ export class SkillsInterface extends Interface
 
         var xp = GetLevelFromExperience(slot.experience);
         slot.text1.setText(`0`);
-        slot.text2.setText(`${xp}`);
+        slot.text2.setText(`0`);
     }
 
     getTotal()
