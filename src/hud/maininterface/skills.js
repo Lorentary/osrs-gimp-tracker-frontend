@@ -33,8 +33,8 @@ const SKILLS_OFFSETS =
 
 export const SKILLS_ICON_TEXTURES = 
 [
-    '199-0.png',
     '197-0.png',
+    '199-0.png',
     '198-0.png',
     '203-0.png',
     '200-0.png',
@@ -254,7 +254,7 @@ export class SkillsInterface extends Interface
         slot.experience = experience;
 
         var xp = GetLevelFromExperience(slot.experience);
-        slot.text1.setText(`${xp}`);
+        slot.text1.setText(`0`);
         slot.text2.setText(`${xp}`);
     }
 
