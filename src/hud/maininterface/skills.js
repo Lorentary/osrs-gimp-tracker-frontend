@@ -258,7 +258,7 @@ export class SkillsInterface extends Interface
 
 	if(this.skillId == 6)
 	{
-	slot.text1.setText(`0`);
+		slot.text1.setText(`0`);
 	}
         slot.text2.setText(`${xp}`);
     }
